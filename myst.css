@@ -1,0 +1,198 @@
+
+
+
+header{
+    text-align: center;
+    width:100%;
+    display: block;
+}
+
+#header_title{
+
+    
+    background-color: rgb(116, 222, 172);
+    margin: 0 auto;
+    font-size: 15px;
+   
+    border-radius: 30px;
+    padding: 15px;
+    margin:30px auto;
+    width:500px;
+  
+font-family: 'Cinzel Decorative', serif;
+
+   
+}
+
+#header_title h1 {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;   
+    margin-top: 10px;  
+}
+
+hr::after{
+
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: peachpuff;
+}
+
+.first_movie h1{
+font-family: 'Cinzel Decorative', serif;
+border: 2px solid black;
+width: 30%;
+margin: 30px auto;
+
+
+
+
+}
+
+.first_movie img{
+    border-radius: 30px;
+    border: 5px solid lightblue;
+    width:400px;
+
+    box-shadow: 0 4px 15px rgb(36, 35, 35);
+
+
+
+}
+.first_movie img#second {
+    border: 5px solid burlywood;
+    
+}
+
+
+.first_movie p{
+    font-size: medium;
+    font-family: 'EB Garamond', serif;
+    width:70%;
+    margin: 15px auto;
+
+}
+
+.first_movie img#thirdmovie{
+
+border: 5px solid rgb(119, 194, 119);
+}
+
+
+.first_movie img#fourthmovie{
+
+border: 5px solid rgb(204, 206, 214);
+}
+
+.first_movie img#fivthmovie{
+
+border: 5px solid rgb(143, 155, 118);
+}
+
+.first_movie img#sixthmovie{
+
+border: 5px solid rgb(17, 16, 16);
+}
+
+.first_movie img#seventhmovie{
+
+border: 5px solid rgba(228, 221, 221, 0.921);
+}
+
+.first_movie img#eighthmovie{
+
+border: 5px solid rgb(208, 69, 69);
+}
+
+body{
+    background-color: peachpuff;
+}
+
+
+#buttons{
+
+    
+
+    text-align: center;
+
+}
+#buttons button{
+
+    background-color: blanchedalmond;
+    font-size: medium;
+    border-radius: 5px;
+
+margin: 0 20px;
+
+
+}
+
+main{
+    text-align: center;
+}
+
+.page_container {
+    max-width: 1000px;
+    background-color: #fffaf0;
+   margin: 0 auto;
+   padding:40px;
+   border-radius: 15px;
+   box-shadow: 0 4px 15px rgb(36, 35, 35);
+}      
+
+footer{
+margin: 20px;
+}
+
+#buttons a{
+
+    text-decoration: none;
+}
+
+.first_movie img:hover {
+
+    width:425px;
+    box-shadow: none;
+
+
+}
+
+
+#buttons button:hover{
+
+background-color: rgb(154, 135, 110);
+font-size: large;
+box-shadow: 10px 5px 10px black;
+}
+
+.logo img{
+    border-radius: 12px;
+    width:200px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 0px;
+      margin-bottom: 10px;
+  
+
+
+}
+
+footer{
+
+    background-color: rgb(233, 209, 178);
+    border-radius: 20px;
+    width:73%;
+    margin: 30px auto;
+}
