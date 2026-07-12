@@ -239,7 +239,7 @@ footer{
     position: absolute;
     top:5px;
     animation-timing-function: linear;
-    animation-delay: 3s;
+  
  
 }
 .cute_animation_chart2{
@@ -288,10 +288,10 @@ footer{
     position: absolute;
     top:5px;
     animation-timing-function: linear;
-    animation-delay: 12s;
+    animation-delay: 11.5s;
  
 }
-
+/*
 .cute_animation_chart5{
     width: 80px;
     background-color: blanchedalmond;
@@ -309,7 +309,7 @@ footer{
     height: 80px;
  
 }
-
+*/
 
 @keyframes slides {
     from{
