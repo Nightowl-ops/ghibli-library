@@ -196,3 +196,84 @@ footer{
     width:73%;
     margin: 30px auto;
 }
+.image_animation{
+    width: 90%;
+    background-color: blanchedalmond;
+    border-radius: 250px;
+    margin-bottom: 30px;
+    position:relative;
+    height:95px;
+    margin:30px auto;
+    overflow: hidden;
+    
+
+}
+
+
+.cute_animation{
+    width: 90px;
+    background-color: blanchedalmond;
+    border-radius: 2250px;
+    border: 1px solid black;
+    animation: slides;
+    animation-iteration-count: infinite;
+    animation-duration: 14s;
+    height: 82px;
+    position: absolute;
+    top:5px;
+    animation-timing-function: linear;
+
+}
+
+.cute_animation_chart1{
+    width: 80px;
+    background-color: blanchedalmond;
+    border-radius: 2250px;
+    border: 1px solid black;
+    animation: love;
+    animation-iteration-count: infinite;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    margin-left: 20px;
+    position: absolute;
+    top:5px;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+ 
+}
+.cute_animation_chart2{
+    width: 80px;
+    background-color: blanchedalmond;
+    border-radius: 2250px;
+    border: 1px solid black;
+    animation: love;
+    animation-iteration-count: infinite;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    margin-left: 20px;
+    position: absolute;
+    top:5px;
+    animation-timing-function: linear;
+    animation-delay: 6s;
+ 
+}
+
+
+
+@keyframes slides {
+    from{
+        margin-left: 90%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+
+@keyframes love {
+    from{
+        margin-left: 90%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
