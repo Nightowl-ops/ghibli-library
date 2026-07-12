@@ -222,6 +222,7 @@ footer{
     position: absolute;
     top:5px;
     animation-timing-function: linear;
+  
 
 }
 
@@ -258,6 +259,56 @@ footer{
  
 }
 
+.cute_animation_chart3{
+    width: 80px;
+    background-color: blanchedalmond;
+    border-radius: 2250px;
+    border: 1px solid black;
+    animation: love;
+    animation-iteration-count: infinite;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    margin-left: 20px;
+    position: absolute;
+    top:5px;
+    animation-timing-function: linear;
+    animation-delay: 9s;
+ 
+}
+.cute_animation_chart4{
+    width: 80px;
+    background-color: blanchedalmond;
+    border-radius: 2250px;
+    border: 1px solid black;
+    animation: love;
+    animation-iteration-count: infinite;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    margin-left: 20px;
+    position: absolute;
+    top:5px;
+    animation-timing-function: linear;
+    animation-delay: 12s;
+ 
+}
+
+.cute_animation_chart5{
+    width: 80px;
+    background-color: blanchedalmond;
+    border-radius: 2250px;
+    border: 1px solid black;
+    animation: love;
+    animation-iteration-count: infinite;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    margin-left: 20px;
+    position: absolute;
+    top:5px;
+    animation-timing-function: linear;
+    animation-delay: 15.5s;
+    height: 80px;
+ 
+}
 
 
 @keyframes slides {
